@@ -1,0 +1,153 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-image: url("../assets/ac.jpg"); /* Imagen de fondo */
+    background-repeat: repeat; /* Repetir la imagen de fondo en ambas direcciones */
+    padding: 0; /* Eliminar el relleno alrededor del cuerpo del documento */
+}
+
+/* Contenedor de la cuadrícula */
+.grid-container {
+    display: grid; /* Usar el sistema de cuadrícula para el diseño */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Columnas de tamaño automático con un ancho mínimo de 200px y se expanden para llenar el espacio disponible */
+    grid-gap: 2em; /* Espacio entre las cajas dentro de la cuadrícula */
+}
+
+/* Estilos para las cajas */
+.box {
+    width: 200px; /* Ancho de cada caja */
+    height: 200px; /* Altura de cada caja */
+    text-align: center; /* Centrar el texto horizontalmente dentro de la caja */
+    border: 3px solid black; /* Borde de 3px sólido de color negro */
+}
+
+/* Estilos internos para el contenido dentro de las cajas con padding */
+.padding-inner {
+    box-sizing: border-box; /* Incluir el tamaño del borde y el relleno en el ancho y alto total */
+    padding: 20px; /* Relleno interno de 20px */
+    background-origin: content-box; /* Origen del fondo desde el borde exterior de la caja (excluyendo el relleno) */
+}
+
+/* Estilos para fondo blanco */
+.bg-white {
+    background-color: white; /* Color de fondo blanco */
+}
+
+/* Estilo A */
+/* Caja 1 con una imagen de fondo desde "../assets/back_mantel.jpg" */
+.box:nth-child(1) {
+    background-image: url("../assets/back_mantel.jpg");
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo B */
+/* Caja 2 con una imagen de fondo desde "../assets/back_mantel.jpg" y el fondo limitado al contenido */
+.box:nth-child(2) {
+    background-image: url("../assets/back_mantel.jpg");
+    background-clip: content-box;
+}
+
+/* Estilo C */
+/* Caja 3 con una imagen de fondo desde "../assets/back_mantel.jpg" y el tamaño de fondo al 100% */
+.box:nth-child(3) {
+    background-image: url("../assets/back_mantel.jpg");
+    background-size: 100%;
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo D */
+/* Caja 4 con una imagen de fondo desde "../assets/back_mantel.jpg", tamaño de fondo al 100% y sin repetición */
+.box:nth-child(4) {
+    background-image: url("../assets/back_mantel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Estilo E */
+/* Caja 5 con una imagen de fondo desde "../assets/dh.jpg" y tamaño de fondo al 100% */
+.box:nth-child(5) {
+    background-image: url("../assets/dh.jpg");
+    background-size: 100%;
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo F */
+/* Caja 6 con una imagen de fondo desde "../assets/dh.jpg", tamaño de fondo al 100% y sin repetición */
+.box:nth-child(6) {
+    background-image: url("../assets/dh.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo G */
+/* Caja 7 con una imagen de fondo desde "../assets/dh_2.jpg", tamaño de fondo al 100%, sin repetición y centrada */
+.box:nth-child(7) {
+    background-image: url("../assets/dh_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 90px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo H */
+/* Caja 8 con una imagen de fondo desde "../assets/dh_3.jpg", tamaño de fondo "contain", sin repetición y centrada */
+.box:nth-child(8) {
+    background-image: url("../assets/dh_3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo I */
+/* Caja 9 con un fondo degradado lineal */
+.box:nth-child(9) {
+    background: linear-gradient(
+        to right,
+        rgb(183, 248, 108) 0%,
+        rgb(85, 116, 51) 100%
+    );
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo J */
+/* Caja 10 con un fondo degradado lineal */
+.box:nth-child(10) {
+    background: linear-gradient(
+        to bottom,
+        rgb(226, 172, 151) 0%,
+        rgb(129, 47, 15) 80%,
+        rgb(107, 31, 1) 51%,
+        rgb(177, 109, 72) 100%
+    );
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo K */
+/* Caja 11 con un fondo degradado lineal */
+.box:nth-child(11) {
+    background: linear-gradient(
+        to top,
+        rgb(45, 104, 40) 0%,
+        rgb(214, 214, 189) 100%
+    );
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Estilo L */
+/* Caja 12 con un fondo degradado lineal */
+.box:nth-child(12) {
+    background: linear-gradient(
+        to top,
+        rgb(43, 99, 38) 0%,
+        rgba(39, 92, 35, 0) 79%
+    );
+    line-height: 60px; /* Posicionar el contenido más arriba dentro de la caja */
+}
+
+/* Media Query para pantallas de 800px o más grandes */
+@media (min-width: 800px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

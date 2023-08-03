@@ -1,0 +1,58 @@
+/* Estilo para el cuerpo del documento */
+body {
+  background-color: rgb(255, 255, 255); /* Establece el color de fondo del cuerpo en blanco */
+  display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos dentro del cuerpo */
+  justify-content: center; /* Centra horizontalmente los elementos flexibles dentro del cuerpo */
+  align-items: center; /* Centra verticalmente los elementos flexibles dentro del cuerpo */
+}
+
+/* Estilo para el primer nivel de div */
+div {
+  border: 3px solid rgb(6, 164, 243); /* Establece un borde sólido de 3px con color RGB(6, 164, 243) */
+}
+
+/* Estilo para el segundo nivel de div anidado */
+div > div {
+  border: 3px outset rgb(255, 255, 255); /* Establece un borde con relieve hacia afuera de 3px con color blanco */
+}
+
+/* Estilo para la tabla */
+table {
+  width: 100%; /* Establece el ancho de la tabla al 100% */
+  border-collapse: collapse; /* Combina los bordes de las celdas de la tabla */
+  font-size: x-large; /* Establece el tamaño de fuente de la tabla en grande */
+}
+
+/* Estilo para las celdas de encabezado con clase "titles" */
+.titles td {
+  background-color: #073636; /* Establece un fondo de color verde oscuro */
+  color: #c5fac5; /* Establece el color del texto en verde claro */
+  text-align: center; /* Centra el texto horizontalmente dentro de las celdas de encabezado */
+}
+
+/* Estilo para las celdas de encabezado y datos de la tabla */
+table th,
+table td {
+  border: 3px solid rgb(6, 164, 243); /* Establece un borde sólido de 3px con color RGB(6, 164, 243) */
+  box-shadow: -1px -1px 1px 0.5px rgb(255, 255, 255) inset; /* Agrega una sombra interior a las celdas con color blanco */
+  text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+  padding: 0px 15px; /* Agrega un relleno horizontal de 0px y un relleno vertical de 15px a las celdas */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+table th {
+  background-color: #073636; /* Establece un fondo de color verde oscuro para las celdas de encabezado */
+  color: #c5fac5; /* Establece el color del texto en verde claro */
+  text-align: center; /* Centra el texto horizontalmente dentro de las celdas de encabezado */
+  padding: 0 0.5em; /* Agrega un relleno horizontal de 0px y un relleno vertical de 0.5em a las celdas de encabezado */
+}
+
+/* Estilo para filas impares de la tabla */
+tr:nth-child(odd) {
+  background-color: #8eb98e; /* Establece un fondo de color verde claro para filas impares */
+}
+
+/* Estilo para filas pares de la tabla */
+tr:nth-child(even) {
+  background-color: #c3fdc3; /* Establece un fondo de color verde más claro para filas pares */
+}

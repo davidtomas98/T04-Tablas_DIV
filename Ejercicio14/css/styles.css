@@ -1,0 +1,74 @@
+/* Estilo para el cuerpo del documento */
+body {
+    background-color: #f0f0f0; /* Fondo de color gris claro */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina los rellenos predeterminados del cuerpo */
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la altura visible del viewport */
+    display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos dentro del cuerpo */
+    align-items: center; /* Centra verticalmente los elementos flexibles dentro del cuerpo */
+    justify-content: center; /* Centra horizontalmente los elementos flexibles dentro del cuerpo */
+}
+
+/* Estilo para el contenedor div */
+div {
+    display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos dentro del contenedor div */
+    justify-content: center; /* Centra horizontalmente los elementos flexibles dentro del contenedor div */
+    align-items: center; /* Centra verticalmente los elementos flexibles dentro del contenedor div */
+    background-image: url("https://images2.alphacoders.com/470/470311.jpg"); /* Establece una imagen de fondo para el div */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el div */
+    background-position: center; /* Centra la imagen de fondo en el div */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    width: 1000px; /* Establece el ancho del div en 1000px */
+    height: 500px; /* Establece la altura del div en 500px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave al div */
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: separate; /* Separa los bordes de las celdas */
+    width: 90%; /* Establece el ancho de la tabla al 90% */
+    margin: 20px; /* Agrega un margen de 20px alrededor de la tabla */
+    border: 5px outset #333; /* Establece un borde de 5px con relieve en color #333 */
+    background-color: rgba(255, 255, 255, 0.9); /* Establece un fondo blanco transparente para la tabla */
+    border-radius: 0.5em; /* Agrega un pequeño radio a las esquinas de la tabla */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave a la tabla */
+}
+
+/* Estilo para las celdas de encabezado y datos de la tabla */
+table th,
+table td {
+    border: 2px solid #333; /* Establece un borde de 2px sólido en color #333 para las celdas */
+    padding: 12px; /* Agrega un relleno de 12px a las celdas */
+    font-weight: bold; /* Establece la fuente en negrita para las celdas */
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a las celdas */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+table th {
+    background-color: #009688; /* Establece un fondo de color verde oscuro para las celdas de encabezado */
+    color: #fff; /* Establece el color del texto en blanco para las celdas de encabezado */
+    text-align: center; /* Centra el texto horizontalmente dentro de las celdas de encabezado */
+}
+
+/* Estilo para las celdas de datos de la tabla */
+table td {
+    background-color: #f2f2f2; /* Establece un fondo de color gris claro para las celdas de datos */
+    text-align: center; /* Centra el texto horizontalmente dentro de las celdas de datos */
+}
+
+/* Estilo de texto con fuente más pesada */
+.txt-500 {
+    font-weight: 500; /* Establece la fuente en negrita para el texto con la clase "txt-500" */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Establece un fondo de color negro para el pie de página */
+    color: #fff; /* Establece el color del texto en blanco para el pie de página */
+    text-align: center; /* Centra el texto horizontalmente dentro del pie de página */
+    padding: 20px; /* Agrega un relleno de 20px alrededor del pie de página */
+    position: fixed; /* Fija el pie de página en la parte inferior de la ventana del navegador */
+    bottom: 0; /* Coloca el pie de página en la parte inferior */
+    left: 0; /* Coloca el pie de página en la parte izquierda */
+    width: 100%; /* Establece el ancho del pie de página al 100% */
+}

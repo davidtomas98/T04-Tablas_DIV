@@ -1,0 +1,21 @@
+/* Establecer el estilo de la lista anidada dentro del primer elemento <li> de la lista ordenada principal */
+ol > li:nth-child(1) > ol {
+    list-style-type: lower-alpha; /* Utiliza letras minúsculas (a, b, c, ...) como marcadores */
+  }
+  
+  /* Establecer el estilo de la lista anidada dentro del segundo elemento <li> de la lista ordenada principal */
+  ol > li:nth-child(2) > ol {
+    list-style-type: upper-roman; /* Utiliza números romanos en mayúsculas (I, II, III, ...) como marcadores */
+  }
+  
+  /* Añadir un espacio de relleno a la izquierda para el primer elemento de la lista anidada en el segundo elemento <li> de la lista ordenada principal */
+  ol > li:nth-child(2) > ol > li:nth-child(1) {
+    padding-left: 20px; /* Agregar un espacio de 20px a la izquierda del marcador del primer elemento de la lista anidada */
+  }
+  
+  /* Añadir un espacio de relleno a la izquierda y un margen a la izquierda para el segundo elemento de la lista anidada en el segundo elemento <li> de la lista ordenada principal */
+  ol > li:nth-child(2) > ol > li:nth-child(2) {
+    padding-left: 15px; /* Agregar un espacio de 15px a la izquierda del marcador del segundo elemento de la lista anidada */
+    margin-left: 5px; /* Agregar un margen de 5px a la izquierda del contenido del segundo elemento de la lista anidada */
+  }
+  

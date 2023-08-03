@@ -1,0 +1,146 @@
+/* Estilos para el cuerpo del documento */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenido */
+.content {
+    border: 5px solid rgb(190, 0, 0); /* Borde rojo alrededor del contenido */
+    box-sizing: border-box; /* Para que el borde se incluya en el tamaño total */
+    background: url(../assets/f01.png) left bottom repeat-x,
+               url(../assets/f02.png) left bottom no-repeat,
+               url(../assets/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+    width: 80%; /* Ancho del contenido */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Estilos para el logo de Mario Bros en el centro */
+.mario-logo {
+    width: 400px; /* Tamaño del logo de Mario Bros */
+    height: auto; /* Altura automática según el tamaño */
+    position: absolute; /* Posición absoluta */
+    top: 50%; /* Posición en el centro vertical */
+    left: 50%; /* Posición en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centrar respecto al centro */
+}
+
+/* Estilos para los bloques */
+.block {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    background-size: cover;
+    background-image: url(../assets/bloque.PNG); /* URL de la imagen del bloque 1 */
+    position: absolute;
+}
+
+/* Estilos para los bloques duplicados */
+.block1, .block2, .block3, .block4, .gold, .brow, .money, .money1, .money2, .money3, .money4 {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url(../assets/bloque.PNG); /* URL de la imagen del bloque 1 */
+    position: absolute;
+}
+
+/* Posicionamiento de los bloques */
+.block4 {
+    left: 450px;
+    bottom: 440px;
+}
+
+.block1 {
+    left: 480px;
+    bottom: 440px;
+}
+
+.block2 {
+    left: 510px;
+    bottom: 440px;
+}
+
+.block3 {
+    left: 570px;
+    bottom: 440px;
+}
+
+/* Estilos para el bloque gold */
+.gold {
+    width: 34px;
+    height: 34px;
+    background-size: cover;
+    background-image: url(../assets/gold.png);
+    position: absolute;
+}
+
+/* Posicionamiento del bloque gold */
+.gold {
+    left: 538px;
+    bottom: 439px;
+}
+
+/* Estilos para la tortuga */
+.brow {
+    width: 40px;
+    height: 60px;
+    background-size: cover;
+    background-image: url(../assets/tortuga.png);
+    position: absolute;
+}
+
+/* Posicionamiento de la tortuga */
+.brow {
+    left: 510px;
+    bottom: 335px;
+}
+
+/* Estilos para las monedas */
+.money1, .money2, .money3, .money4, .money5 {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-image: url(../assets/money.png);
+    position: absolute;
+}
+
+/* Posicionamiento de las monedas */
+.money1 {
+    left: 540px;
+    bottom: 475px;
+}
+
+.money2 {
+    left: 510px;
+    bottom: 475px;
+}
+
+.money3 {
+    left: 480px;
+    bottom: 500px;
+}
+
+.money4 {
+    left: 450px;
+    bottom: 475px;
+}
+
+.money5 {
+    left: 570px;
+    bottom: 475px;
+}

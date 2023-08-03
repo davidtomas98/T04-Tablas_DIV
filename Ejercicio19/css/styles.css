@@ -1,0 +1,27 @@
+/* Estilos para el cuerpo del documento */
+body {
+    /* Centrar el contenido horizontalmente */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para el contenedor principal */
+  div {
+    /* Ancho máximo del contenedor */
+    max-width: 850px;
+  }
+  
+  /* Estilos para las tablas y sus celdas */
+  table,
+  td,
+  th {
+    /* Borde de color negro con un grosor de 1px */
+    border: #000000 1px solid;
+  }
+  
+  /* Estilos para las celdas en negrita */
+  .bolder > td {
+    /* Texto en negrita */
+    font-weight: bolder;
+  }
+  

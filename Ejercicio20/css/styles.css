@@ -1,0 +1,12 @@
+/* Estilos para las tablas y sus celdas (td y th) */
+table,
+td,
+th {
+  border: 1px solid #000000; /* Borde de 1px sólido con color negro */
+}
+
+/* Estilos para las celdas con clase "bolder" */
+.bolder {
+  font-weight: bolder; /* Texto en negrita */
+  text-align: center; /* Alineación centrada del contenido */
+}

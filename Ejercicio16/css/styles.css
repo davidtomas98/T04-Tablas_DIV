@@ -1,0 +1,50 @@
+body {
+    background-color: #ffe6d4; /* Establece el color de fondo marrón del cuerpo */
+    font-family: Arial, Helvetica, sans-serif; /* Utiliza la fuente Arial como fuente predeterminada */
+    color: #86013d; /* Establece el color del texto principal */
+    -webkit-text-stroke: 0.5px #000; /* Agrega un borde externo de 0.5px con color negro */
+    display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos dentro del cuerpo */
+    align-items: center; /* Centra verticalmente los elementos flexibles dentro del cuerpo */
+    justify-content: center; /* Centra horizontalmente los elementos flexibles dentro del cuerpo */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 60%; /* Establece el ancho de la tabla al 60% del contenedor padre */
+    border: 3px solid #8B4513; /* Establece un borde sólido de color marrón */
+}
+
+/* Estilo para las celdas de encabezado y datos de la tabla */
+table th,
+table td {
+    border: 0.5px solid rgb(0, 0, 0); /* Establece un borde sólido de 0.5px con color negro */
+    padding: 8px; /* Agrega un relleno interno de 8px a las celdas */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    box-shadow: inset 1px 1px 0px rgb(0, 0, 0); /* Agrega una sombra interior a las celdas */
+    text-align: center; /* Centra el texto horizontalmente dentro de las celdas */
+    background-color: #F5DEB3; /* Establece un color beige para el fondo de las celdas */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+table th {
+    background-color: #fdcc99; /* Establece un fondo de color melocotón claro para las celdas de encabezado */
+}
+
+/* Estilo para el título de la tabla (caption) */
+caption {
+    background-color: green; /* Establece un fondo de color verde para el título de la tabla */
+    padding: 10px; /* Agrega un relleno interno de 10px al título de la tabla */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+}
+
+/* Estilo para las celdas con clase "small-large" */
+td.small-large {
+    background-color: #fffe9a; /* Establece un fondo de color amarillo claro para las celdas con clase "small-large" */
+}
+
+/* Estilo para las celdas con clase "fondo-perro" */
+td.fondo-perro {
+    background-image: url("https://previews.123rf.com/images/mobeone/mobeone1709/mobeone170900175/86870600-patr%C3%B3n-de-hueso-para-perro-ilustraci%C3%B3n-vectorial.jpg"); /* Establece una imagen de fondo */
+    background-repeat: repeat;
+    background-size:  auto 1000%; /* Ajusta la imagen de fondo para cubrir toda la celda */
+}

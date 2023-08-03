@@ -1,0 +1,58 @@
+/* Estilo para el cuerpo del documento */
+body {
+  background-color: rgb(255, 255, 255); /* Establece el color de fondo del cuerpo en blanco */
+  display: flex; /* Utiliza el modelo de caja flexible para organizar los elementos dentro del cuerpo */
+  justify-content: center; /* Centra horizontalmente los elementos flexibles dentro del cuerpo */
+  align-items: center; /* Centra verticalmente los elementos flexibles dentro del cuerpo */
+}
+
+/* Estilo para el primer nivel de div */
+div {
+  border: 2px solid rgb(0, 170, 255); /* Establece un borde sólido de 2px con color RGB(0, 170, 255) */
+}
+
+/* Estilo para el segundo nivel de div anidado */
+div > div {
+  border: 3px outset rgb(255, 255, 255); /* Establece un borde con relieve hacia afuera de 3px con color blanco */
+}
+
+/* Estilo para la tabla */
+table {
+  border-collapse: collapse; /* Combina los bordes de las celdas de la tabla */
+  width: 100%; /* Establece el ancho de la tabla al 100% */
+  font-size: x-large; /* Establece el tamaño de fuente de la tabla en grande */
+}
+
+/* Estilo para las celdas de encabezado y datos de la tabla */
+table th,
+table td {
+  border: 2px solid rgb(0, 170, 255); /* Establece un borde sólido de 2px con color RGB(0, 170, 255) */
+  box-shadow: -1px -1px 1px 0.5px rgb(255, 255, 255) inset; /* Agrega una sombra interior a las celdas con color blanco */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+table th {
+  background-color: #043333; /* Establece un fondo de color verde oscuro para las celdas de encabezado */
+  color: #ccfecc; /* Establece el color del texto en verde claro */
+  text-align: center; /* Centra el texto horizontalmente dentro de las celdas de encabezado */
+}
+
+/* Estilo para las filas de la tabla */
+tr {
+  background-color: #ccfecc; /* Establece un fondo de color verde claro para las filas */
+}
+
+/* Estilo para la última fila de la tabla */
+tr:last-child {
+  background-color: #99cc99; /* Establece un fondo de color verde más claro para la última fila */
+}
+
+/* Estilo para la clase "price" */
+.price {
+  text-align: center; /* Centra el texto horizontalmente dentro de las celdas con la clase "price" */
+}
+
+/* Estilo para la primera celda de cada fila */
+td:first-child {
+  padding-right: 5em; /* Agrega un relleno derecho de 5em a la primera celda de cada fila */
+}
