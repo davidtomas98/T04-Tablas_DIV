@@ -28,7 +28,6 @@ A continuación, se describen brevemente los 10 ejercicios:
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio13/index.html)
 
-**Código:** [Ver código](./Ejercicio11-12/index.html)
 ## Ejercicio 14
 **Descripción:** Tabla sencilla con celdas de encabezado combinadas.
 
