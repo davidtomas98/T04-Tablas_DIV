@@ -16,6 +16,8 @@ A continuación, se describen brevemente los 10 ejercicios:
 **Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-12.png)
 
 **Código:** [Ver código](./Ejercicio11-12/index.html)
+[view](https://david.tomas.github.io/T04-Tablas_DIV/ejercicio11-12/index.html)
+
 ## Ejercicio 13
 **Descripción:** Tabla con celdas combinadas y clases de estilo para resaltar contenido.
 **Código:** [Ver código](./Ejercicio13/index.html)
