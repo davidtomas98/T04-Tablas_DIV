@@ -7,18 +7,17 @@ A continuación, se describen brevemente los 10 ejercicios:
 ## Ejercicio 11
 **Descripción:** Tabla con información sobre diferentes lugares y direcciones.
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-11.png)
+**Código:** [Ver código](./Ejercicio11-12/pages/donde.html)
+
 ## Ejercicio 11.2
 **Descripción:** Tabla con información sobre actividades.
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-11-2.png)
+**Código:** [Ver código](./Ejercicio11-12/pages/donde2.html)
 
 ## Ejercicio 12
 **Descripción:** Tabla con información sobre diferentes lugares y direcciones (versión alternativa).
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-12.png)
-
-**Código:** [Ver código](./Ejercicio11-12/index.html)
+**Código:** [Ver código](./Ejercicio11-12/pages/instalaciones.html)
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio11-12/index.html)
 
@@ -26,8 +25,6 @@ A continuación, se describen brevemente los 10 ejercicios:
 **Descripción:** Tabla con celdas combinadas y clases de estilo para resaltar contenido.
 
 **Código:** [Ver código](./Ejercicio13/index.html)
-
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio13.png)
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio13/index.html)
 
@@ -37,16 +34,12 @@ A continuación, se describen brevemente los 10 ejercicios:
 
 **Código:** [Ver código](./Ejercicio14/index.html)
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-14.png)
-
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio14/index.html)
 
 ## Ejercicio 15
 **Descripción:** Listas anidadas para mostrar periódicos de diferentes países.
 
 **Código:** [Ver código](./Ejercicio15/index.html)
-
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-15.png)
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio15/index.html)
 
@@ -55,16 +48,12 @@ A continuación, se describen brevemente los 10 ejercicios:
 
 **Código:** [Ver código](./Ejercicio16/index.html)
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-16.png)
-
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio16/index.html)
 
 ## Ejercicio 17
 **Descripción:** Diseño de rejilla (grid) con cajas y estilos aplicados a cada una.
 
 **Código:** [Ver código](./Ejercicio17/index.html)
-
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-17.png)
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio17/index.html)
 
@@ -73,8 +62,6 @@ A continuación, se describen brevemente los 10 ejercicios:
 
 **Código:** [Ver código](./Ejercicio18/index.html)
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-18.png)
-
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio18/index.html)
 
 ## Ejercicio 19
@@ -82,16 +69,12 @@ A continuación, se describen brevemente los 10 ejercicios:
 
 **Código:** [Ver código](./Ejercicio19/index.html)
 
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-19.png)
-
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio19/index.html)
 
 ## Ejercicio 20
 **Descripción:** Tabla que muestra categorías y etiquetas HTML con estilos aplicados.
 
 **Código:** [Ver código](./Ejercicio20/index.html)
-
-**Vista previa:** [Ver vista previa](./vistas-previas/ejercicio-20.png)
 
 **Resultado :** [View](https://davidtomas98.github.io/T04-Tablas_DIV/Ejercicio20/index.html)
 
